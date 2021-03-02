@@ -30,7 +30,7 @@ In addition to **ride.py** file, we also created another file **driver.py** that
 
 ```python
 # Import only the Driver class
-from driver import Driver
+
 ```
 
 Create a `Passenger` class that doesn't contain anything in the following cell: 
@@ -40,8 +40,7 @@ Create a `Passenger` class that doesn't contain anything in the following cell:
 
 ```python
 # Create Passenger class
-class Passenger:
-    pass
+
 ```
 
 ## Instances
@@ -51,44 +50,33 @@ Now practice using these classes to create instances. First, make two instances 
 
 ```python
 # Two instances of the Passenger class
-meryl = Passenger()
-daniel = Passenger()
+meryl = None
+daniel = None
 
 print(meryl)
 print(daniel)
 ```
-
-    <__main__.Passenger object at 0x10814d3c8>
-    <__main__.Passenger object at 0x10814d390>
-
 
 Next, make one instance of the `Driver` class and assign it to the variable, `flatiron_taxi`.
 
 
 ```python
 # One instance of the Driver class
-flatiron_taxi = Driver()
+flatiron_taxi = None
 print(flatiron_taxi)
 ```
-
-    <driver.Driver object at 0x10814d4e0>
-
 
 Finally, make two instances of the `Ride` class and assign them to `ride_to_school` and `ride_home`. 
 
 
 ```python
 # Two instances of the Ride class
-ride_to_school = Ride()
-ride_home = Ride()
+ride_to_school = None
+ride_home = None
 
 print(ride_to_school)
 print(ride_home)
 ```
-
-    <ride.Ride object at 0x10814d908>
-    <ride.Ride object at 0x10814d8d0>
-
 
 ## Summary
 Great! In this lab, you were able to define classes and create instances of those classes.
